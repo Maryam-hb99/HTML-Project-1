@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!--- Navigation Bar --->
+    <header>
+        <nav>
+            <div class="navbar" id="navbar1">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            
+        </nav>
+    </header>
+    <br>
+    <main>
+        <!--about section -->
+        <section id="about">
+        <h1>About me</h1>
+        <img src="" alt="my photo">
+        <p>Hello! Welcome to my portfolio. My name is maryam and I'm a GIS analyst</p>
+        <video controls>
+            <source src="" type="video/mp4"> 
+        </video>
+        </section>
+        <br>
+        <!--work section -->
+        <section id="work">
+            <h1>My work</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Project Title</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Project 1</td>
+                        <td>A brief description of Project 1.</td>
+                    </tr>
+                    <tr>
+                        <td>Project 2</td>
+                        <td>A brief description of Project 2.</td>
+                    </tr>
+                    <tr>
+                        <td>Project 3</td>
+                        <td>A brief description of Project 3.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <br>
+        <!-- Resume Section -->
+        <section id="resume">
+                    <h2>My Resume</h2>
+                    <a href="resume.pdf" download>Download Resume</a>
+         </section>
+         <br>
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form action="submit_form.php" method="POST"> 
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" maxlength="100"></textarea>
+
+                <input type="submit" value="Send Message">
+            </form>
+
+    </main>
+    <br>
+     <!-- Footer -->
+    <footer>
+        <p>&copy;Copyright 2024, My portfolio.</p>
+    </footer>
+</body>
+</html>

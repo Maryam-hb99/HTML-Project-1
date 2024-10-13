@@ -1,0 +1,22 @@
+.navbar {
+    background-color:rgb(136, 161, 175); 
+    padding: 10px; 
+}
+.navbar ul {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+    display: flex;
+}
+
+.navbar ul li a {
+    display: block; 
+    color: rgb(63, 8, 8); 
+    text-align: center; 
+    padding: 14px 20px; 
+    text-decoration: none; 
+     } 
+.navbar ul li a:hover {
+        background-color: #ddd; 
+        
+}
